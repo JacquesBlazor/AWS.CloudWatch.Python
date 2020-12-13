@@ -1,0 +1,124 @@
+﻿{
+  "b83da93e002c49f08ae1ea979862b393": {
+    "d0c0c4b5-98b6-41e1-9b6f-b14e6ee2581b": {
+      "start_timestamp": "2020-12-12, 20:32:01",
+      "start_ingestionTime": "2020-12-12, 20:32:10",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:32:01",
+          "msg_content": [
+            "Found credentials in environment variables."
+          ]
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:32:01",
+          "msg_content": [
+            "event_type: message"
+          ]
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:32:01",
+          "msg_content": [
+            "return: statusCode[200]"
+          ]
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-12, 20:32:01",
+      "end_ingestionTime": "2020-12-12, 20:32:10",
+      "Report": [
+        "Duration: 11.52 ms",
+        "Billed Duration: 12 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 77 MB",
+        "Init Duration: 487.31 ms"
+      ]
+    }
+  },
+  "22be3456773243ae8ec1269b460954b8": {
+    "c5178335-578f-4dd7-a6ec-a25903ffaf10": {
+      "start_timestamp": "2020-12-12, 20:31:57",
+      "start_ingestionTime": "2020-12-12, 20:32:06",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:31:57",
+          "msg_content": [
+            "Found credentials in environment variables."
+          ]
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:31:57",
+          "msg_content": [
+            "event_type: team_join"
+          ]
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-12, 20:31:59",
+      "end_ingestionTime": "2020-12-12, 20:32:06",
+      "Report": [
+        "Duration: 1967.30 ms",
+        "Billed Duration: 1968 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 80 MB",
+        "Init Duration: 466.66 ms"
+      ]
+    },
+    "f3ab0346-a834-4186-a636-edb6549dced0": {
+      "start_timestamp": "2020-12-12, 20:32:00",
+      "start_ingestionTime": "2020-12-12, 20:32:06",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:32:00",
+          "msg_content": [
+            "event_type: team_join"
+          ]
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-12, 20:32:01",
+      "end_ingestionTime": "2020-12-12, 20:32:06",
+      "Report": [
+        "Duration: 1659.07 ms",
+        "Billed Duration: 1660 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "5a33dc63-dec5-482b-adef-0dca4bb1527c": {
+      "start_timestamp": "2020-12-12, 20:32:02",
+      "start_ingestionTime": "2020-12-12, 20:32:06",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:32:02",
+          "msg_content": [
+            "event_type: message"
+          ]
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-12, 20:32:02",
+          "msg_content": [
+            "return: statusCode[200]"
+          ]
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-12, 20:32:02",
+      "end_ingestionTime": "2020-12-12, 20:32:06",
+      "Report": [
+        "Duration: 1.77 ms",
+        "Billed Duration: 2 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    }
+  }
+}
