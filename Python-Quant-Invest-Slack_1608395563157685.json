@@ -1,0 +1,2694 @@
+﻿{
+  "d4f6bb4444a743b991277aee428031dc": {
+    "0dfd3d3a-4fc4-493a-8a9c-1b91b787c5d2": {
+      "start_timestamp": "2020-12-19, 17:10:28",
+      "start_ingestionTime": "2020-12-19, 17:10:37",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "Found credentials in environment variables."
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3501",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc383-304755e02b58389025b2c790",
+              "x-forwarded-for": "3.82.249.166",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369026",
+              "x-slack-signature": "v0=d185b032d7942c3ac96d8c5893b4a2eb1a5462e4bf56ce4f4a866dbfa9660732"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "3.82.249.166",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyt8kjdQHUYEPLA=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:10:27 +0000",
+              "timeEpoch": 1608369027548
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "slack_signature: v0=d185b032d7942c3ac96d8c5893b4a2eb1a5462e4bf56ce4f4a866dbfa9660732, slack_request_timestamp: 1608369026, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369026.000100",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "AxT",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "Ckui8",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "DjKfQ"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gpkc",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "1PaeK",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "qVpe"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gVN",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "mHBzc",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369026.000100",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01H3E3LACE",
+            "event_time": 1608369026,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369026.000100",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "AxT",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "Ckui8",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "DjKfQ"
+              },
+              {
+                "type": "section",
+                "block_id": "gpkc",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "1PaeK",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "qVpe"
+              },
+              {
+                "type": "section",
+                "block_id": "gVN",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "mHBzc",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369026.000100",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:10:28",
+      "end_ingestionTime": "2020-12-19, 17:10:37",
+      "Report": [
+        "Duration: 28.35 ms",
+        "Billed Duration: 29 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 78 MB",
+        "Init Duration: 462.12 ms"
+      ]
+    }
+  },
+  "959ba2795ff54974b89997646dab4915": {
+    "c0fd21cb-43c9-42a0-b812-d50151ad0107": {
+      "start_timestamp": "2020-12-19, 17:10:24",
+      "start_ingestionTime": "2020-12-19, 17:10:33",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_content": "Found credentials in environment variables."
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "2133",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc380-25328a682e40f3bf3432bcfa",
+              "x-forwarded-for": "18.206.249.193",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369023",
+              "x-slack-signature": "v0=8ca88408d6b21e19b3462b0e779e36662bf87bbbcaa308142d54c8a0e4461fb8"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "18.206.249.193",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyt8CgvHnUYEMCQ=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:10:24 +0000",
+              "timeEpoch": 1608369024100
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"team_join\",\"user\":{\"id\":\"U01HGB01FT6\",\"team_id\":\"T01FY9Z5GUS\",\"name\":\"yoyis52784\",\"deleted\":false,\"color\":\"4ec0d6\",\"real_name\":\"TestBot002\",\"tz\":\"Asia\\/Taipei\",\"tz_label\":\"Taiwan Standard Time\",\"tz_offset\":28800,\"profile\":{\"title\":\"\",\"phone\":\"\",\"skype\":\"\",\"real_name\":\"TestBot002\",\"real_name_normalized\":\"TestBot002\",\"display_name\":\"TestBot002\",\"display_name_normalized\":\"TestBot002\",\"fields\":null,\"status_text\":\"\",\"status_emoji\":\"\",\"status_expiration\":0,\"avatar_hash\":\"g0b50d223ee4\",\"image_24\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png\",\"image_32\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png\",\"image_48\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png\",\"image_72\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png\",\"image_192\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png\",\"image_512\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png\",\"status_text_canonical\":\"\",\"team\":\"T01FY9Z5GUS\"},\"is_admin\":false,\"is_owner\":false,\"is_primary_owner\":false,\"is_restricted\":false,\"is_ultra_restricted\":false,\"is_bot\":false,\"is_app_user\":false,\"updated\":1608369022,\"presence\":\"away\"},\"cache_ts\":1608369022,\"event_ts\":\"1608369022.164500\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H73M0LER\",\"event_time\":1608369022,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_content": "slack_signature: v0=8ca88408d6b21e19b3462b0e779e36662bf87bbbcaa308142d54c8a0e4461fb8, slack_request_timestamp: 1608369023, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"team_join\",\"user\":{\"id\":\"U01HGB01FT6\",\"team_id\":\"T01FY9Z5GUS\",\"name\":\"yoyis52784\",\"deleted\":false,\"color\":\"4ec0d6\",\"real_name\":\"TestBot002\",\"tz\":\"Asia\\/Taipei\",\"tz_label\":\"Taiwan Standard Time\",\"tz_offset\":28800,\"profile\":{\"title\":\"\",\"phone\":\"\",\"skype\":\"\",\"real_name\":\"TestBot002\",\"real_name_normalized\":\"TestBot002\",\"display_name\":\"TestBot002\",\"display_name_normalized\":\"TestBot002\",\"fields\":null,\"status_text\":\"\",\"status_emoji\":\"\",\"status_expiration\":0,\"avatar_hash\":\"g0b50d223ee4\",\"image_24\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png\",\"image_32\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png\",\"image_48\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png\",\"image_72\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png\",\"image_192\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png\",\"image_512\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png\",\"status_text_canonical\":\"\",\"team\":\"T01FY9Z5GUS\"},\"is_admin\":false,\"is_owner\":false,\"is_primary_owner\":false,\"is_restricted\":false,\"is_ultra_restricted\":false,\"is_bot\":false,\"is_app_user\":false,\"updated\":1608369022,\"presence\":\"away\"},\"cache_ts\":1608369022,\"event_ts\":\"1608369022.164500\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H73M0LER\",\"event_time\":1608369022,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "team_join",
+              "user": {
+                "id": "U01HGB01FT6",
+                "team_id": "T01FY9Z5GUS",
+                "name": "yoyis52784",
+                "deleted": false,
+                "color": "4ec0d6",
+                "real_name": "TestBot002",
+                "tz": "Asia/Taipei",
+                "tz_label": "Taiwan Standard Time",
+                "tz_offset": 28800,
+                "profile": {
+                  "title": "",
+                  "phone": "",
+                  "skype": "",
+                  "real_name": "TestBot002",
+                  "real_name_normalized": "TestBot002",
+                  "display_name": "TestBot002",
+                  "display_name_normalized": "TestBot002",
+                  "fields": null,
+                  "status_text": "",
+                  "status_emoji": "",
+                  "status_expiration": 0,
+                  "avatar_hash": "g0b50d223ee4",
+                  "image_24": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png",
+                  "image_32": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png",
+                  "image_48": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png",
+                  "image_72": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+                  "image_192": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+                  "image_512": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+                  "status_text_canonical": "",
+                  "team": "T01FY9Z5GUS"
+                },
+                "is_admin": false,
+                "is_owner": false,
+                "is_primary_owner": false,
+                "is_restricted": false,
+                "is_ultra_restricted": false,
+                "is_bot": false,
+                "is_app_user": false,
+                "updated": 1608369022,
+                "presence": "away"
+              },
+              "cache_ts": 1608369022,
+              "event_ts": "1608369022.164500"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01H73M0LER",
+            "event_time": 1608369022,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_event": {
+            "type": "team_join",
+            "user": {
+              "id": "U01HGB01FT6",
+              "team_id": "T01FY9Z5GUS",
+              "name": "yoyis52784",
+              "deleted": false,
+              "color": "4ec0d6",
+              "real_name": "TestBot002",
+              "tz": "Asia/Taipei",
+              "tz_label": "Taiwan Standard Time",
+              "tz_offset": 28800,
+              "profile": {
+                "title": "",
+                "phone": "",
+                "skype": "",
+                "real_name": "TestBot002",
+                "real_name_normalized": "TestBot002",
+                "display_name": "TestBot002",
+                "display_name_normalized": "TestBot002",
+                "fields": null,
+                "status_text": "",
+                "status_emoji": "",
+                "status_expiration": 0,
+                "avatar_hash": "g0b50d223ee4",
+                "image_24": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png",
+                "image_32": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png",
+                "image_48": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png",
+                "image_72": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+                "image_192": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+                "image_512": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+                "status_text_canonical": "",
+                "team": "T01FY9Z5GUS"
+              },
+              "is_admin": false,
+              "is_owner": false,
+              "is_primary_owner": false,
+              "is_restricted": false,
+              "is_ultra_restricted": false,
+              "is_bot": false,
+              "is_app_user": false,
+              "updated": 1608369022,
+              "presence": "away"
+            },
+            "cache_ts": 1608369022,
+            "event_ts": "1608369022.164500"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_content": "event_type: team_join"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:24",
+          "msg_content": "user_id: U01HGB01FT6, user_name: yoyis52784, real_name: TestBot002"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:25",
+          "msg_content": "response: {'ok': True, 'channel': {'id': 'D01HAC8LW59'}}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:25",
+          "msg_content": "channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:26",
+          "msg_content": "Writting hyeonOperation into DynamoDbs dynamodbTb_hyeonmsgsent table..."
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:26",
+          "msg_content": "return: statusCode[200]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:10:26",
+      "end_ingestionTime": "2020-12-19, 17:10:33",
+      "Report": [
+        "Duration: 2039.63 ms",
+        "Billed Duration: 2040 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 80 MB",
+        "Init Duration: 482.42 ms"
+      ]
+    },
+    "2637c3d1-fe30-4785-9442-914fe49f4dd1": {
+      "start_timestamp": "2020-12-19, 17:10:27",
+      "start_ingestionTime": "2020-12-19, 17:10:33",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "2133",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc383-40bd5b152be63f433e990fba",
+              "x-forwarded-for": "54.91.16.124",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369026",
+              "x-slack-retry-num": "1",
+              "x-slack-retry-reason": "http_timeout",
+              "x-slack-signature": "v0=7b7259502bd56e88c257647da26a0a59345e45338e869ee21886aa08fe3f8517"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "54.91.16.124",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyt8gi_VnUYEJqw=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:10:27 +0000",
+              "timeEpoch": 1608369027121
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"team_join\",\"user\":{\"id\":\"U01HGB01FT6\",\"team_id\":\"T01FY9Z5GUS\",\"name\":\"yoyis52784\",\"deleted\":false,\"color\":\"4ec0d6\",\"real_name\":\"TestBot002\",\"tz\":\"Asia\\/Taipei\",\"tz_label\":\"Taiwan Standard Time\",\"tz_offset\":28800,\"profile\":{\"title\":\"\",\"phone\":\"\",\"skype\":\"\",\"real_name\":\"TestBot002\",\"real_name_normalized\":\"TestBot002\",\"display_name\":\"TestBot002\",\"display_name_normalized\":\"TestBot002\",\"fields\":null,\"status_text\":\"\",\"status_emoji\":\"\",\"status_expiration\":0,\"avatar_hash\":\"g0b50d223ee4\",\"image_24\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png\",\"image_32\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png\",\"image_48\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png\",\"image_72\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png\",\"image_192\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png\",\"image_512\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png\",\"status_text_canonical\":\"\",\"team\":\"T01FY9Z5GUS\"},\"is_admin\":false,\"is_owner\":false,\"is_primary_owner\":false,\"is_restricted\":false,\"is_ultra_restricted\":false,\"is_bot\":false,\"is_app_user\":false,\"updated\":1608369022,\"presence\":\"away\"},\"cache_ts\":1608369022,\"event_ts\":\"1608369022.164500\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H73M0LER\",\"event_time\":1608369022,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_content": "slack_signature: v0=7b7259502bd56e88c257647da26a0a59345e45338e869ee21886aa08fe3f8517, slack_request_timestamp: 1608369026, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"team_join\",\"user\":{\"id\":\"U01HGB01FT6\",\"team_id\":\"T01FY9Z5GUS\",\"name\":\"yoyis52784\",\"deleted\":false,\"color\":\"4ec0d6\",\"real_name\":\"TestBot002\",\"tz\":\"Asia\\/Taipei\",\"tz_label\":\"Taiwan Standard Time\",\"tz_offset\":28800,\"profile\":{\"title\":\"\",\"phone\":\"\",\"skype\":\"\",\"real_name\":\"TestBot002\",\"real_name_normalized\":\"TestBot002\",\"display_name\":\"TestBot002\",\"display_name_normalized\":\"TestBot002\",\"fields\":null,\"status_text\":\"\",\"status_emoji\":\"\",\"status_expiration\":0,\"avatar_hash\":\"g0b50d223ee4\",\"image_24\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png\",\"image_32\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png\",\"image_48\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png\",\"image_72\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png\",\"image_192\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png\",\"image_512\":\"https:\\/\\/secure.gravatar.com\\/avatar\\/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png\",\"status_text_canonical\":\"\",\"team\":\"T01FY9Z5GUS\"},\"is_admin\":false,\"is_owner\":false,\"is_primary_owner\":false,\"is_restricted\":false,\"is_ultra_restricted\":false,\"is_bot\":false,\"is_app_user\":false,\"updated\":1608369022,\"presence\":\"away\"},\"cache_ts\":1608369022,\"event_ts\":\"1608369022.164500\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H73M0LER\",\"event_time\":1608369022,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "team_join",
+              "user": {
+                "id": "U01HGB01FT6",
+                "team_id": "T01FY9Z5GUS",
+                "name": "yoyis52784",
+                "deleted": false,
+                "color": "4ec0d6",
+                "real_name": "TestBot002",
+                "tz": "Asia/Taipei",
+                "tz_label": "Taiwan Standard Time",
+                "tz_offset": 28800,
+                "profile": {
+                  "title": "",
+                  "phone": "",
+                  "skype": "",
+                  "real_name": "TestBot002",
+                  "real_name_normalized": "TestBot002",
+                  "display_name": "TestBot002",
+                  "display_name_normalized": "TestBot002",
+                  "fields": null,
+                  "status_text": "",
+                  "status_emoji": "",
+                  "status_expiration": 0,
+                  "avatar_hash": "g0b50d223ee4",
+                  "image_24": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png",
+                  "image_32": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png",
+                  "image_48": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png",
+                  "image_72": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+                  "image_192": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+                  "image_512": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+                  "status_text_canonical": "",
+                  "team": "T01FY9Z5GUS"
+                },
+                "is_admin": false,
+                "is_owner": false,
+                "is_primary_owner": false,
+                "is_restricted": false,
+                "is_ultra_restricted": false,
+                "is_bot": false,
+                "is_app_user": false,
+                "updated": 1608369022,
+                "presence": "away"
+              },
+              "cache_ts": 1608369022,
+              "event_ts": "1608369022.164500"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01H73M0LER",
+            "event_time": 1608369022,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_event": {
+            "type": "team_join",
+            "user": {
+              "id": "U01HGB01FT6",
+              "team_id": "T01FY9Z5GUS",
+              "name": "yoyis52784",
+              "deleted": false,
+              "color": "4ec0d6",
+              "real_name": "TestBot002",
+              "tz": "Asia/Taipei",
+              "tz_label": "Taiwan Standard Time",
+              "tz_offset": 28800,
+              "profile": {
+                "title": "",
+                "phone": "",
+                "skype": "",
+                "real_name": "TestBot002",
+                "real_name_normalized": "TestBot002",
+                "display_name": "TestBot002",
+                "display_name_normalized": "TestBot002",
+                "fields": null,
+                "status_text": "",
+                "status_emoji": "",
+                "status_expiration": 0,
+                "avatar_hash": "g0b50d223ee4",
+                "image_24": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=24&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-24.png",
+                "image_32": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=32&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-32.png",
+                "image_48": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-48.png",
+                "image_72": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=72&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-72.png",
+                "image_192": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=192&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-192.png",
+                "image_512": "https://secure.gravatar.com/avatar/0b50d223ee41c8cd849a0489d2039721.jpg?s=512&d=https%3A%2F%2Fa.slack-edge.com%2Fdf10d%2Fimg%2Favatars%2Fava_0001-512.png",
+                "status_text_canonical": "",
+                "team": "T01FY9Z5GUS"
+              },
+              "is_admin": false,
+              "is_owner": false,
+              "is_primary_owner": false,
+              "is_restricted": false,
+              "is_ultra_restricted": false,
+              "is_bot": false,
+              "is_app_user": false,
+              "updated": 1608369022,
+              "presence": "away"
+            },
+            "cache_ts": 1608369022,
+            "event_ts": "1608369022.164500"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_content": "event_type: team_join"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_content": "user_id: U01HGB01FT6, user_name: yoyis52784, real_name: TestBot002"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_content": "response: {'ok': True, 'no_op': True, 'already_open': True, 'channel': {'id': 'D01HAC8LW59'}}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:27",
+          "msg_content": "channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "Writting hyeonOperation into DynamoDbs dynamodbTb_hyeonmsgsent table..."
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:28",
+          "msg_content": "return: statusCode[200]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:10:28",
+      "end_ingestionTime": "2020-12-19, 17:10:33",
+      "Report": [
+        "Duration: 1704.84 ms",
+        "Billed Duration: 1705 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "e103bc59-83c7-4bb5-afcc-9fd9cafc7c02": {
+      "start_timestamp": "2020-12-19, 17:10:29",
+      "start_ingestionTime": "2020-12-19, 17:10:33",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3501",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc385-68701f67204fddea6bb3dda0",
+              "x-forwarded-for": "50.19.163.32",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369028",
+              "x-slack-retry-num": "1",
+              "x-slack-retry-reason": "http_error",
+              "x-slack-signature": "v0=db81cd5d5a088ac7b37c1a2be80c294f10b1c7eb27dbc29642ad4a40beaa5ed6"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "50.19.163.32",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyt80jXNnUYEJ7A=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:10:29 +0000",
+              "timeEpoch": 1608369029108
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_content": "slack_signature: v0=db81cd5d5a088ac7b37c1a2be80c294f10b1c7eb27dbc29642ad4a40beaa5ed6, slack_request_timestamp: 1608369028, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369026.000100",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "AxT",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "Ckui8",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "DjKfQ"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gpkc",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "1PaeK",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "qVpe"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gVN",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "mHBzc",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369026.000100",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01H3E3LACE",
+            "event_time": 1608369026,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369026.000100",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "AxT",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "Ckui8",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "DjKfQ"
+              },
+              {
+                "type": "section",
+                "block_id": "gpkc",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "1PaeK",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "qVpe"
+              },
+              {
+                "type": "section",
+                "block_id": "gVN",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "mHBzc",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369026.000100",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:29",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:10:29",
+      "end_ingestionTime": "2020-12-19, 17:10:33",
+      "Report": [
+        "Duration: 2.57 ms",
+        "Billed Duration: 3 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "d02d81f3-e2bf-43a0-8448-cd1c5c89eb8b": {
+      "start_timestamp": "2020-12-19, 17:10:30",
+      "start_ingestionTime": "2020-12-19, 17:10:33",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3502",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc386-3c2a14c943f751d231b452b0",
+              "x-forwarded-for": "54.174.208.226",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369029",
+              "x-slack-signature": "v0=c41229efb5a09add88d6dd893b93a3e9a0a2167fd242de27d28e3c8db9c5be4d"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "54.174.208.226",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyt9CiBZHUYEQig=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:10:30 +0000",
+              "timeEpoch": 1608369030517
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_content": "slack_signature: v0=c41229efb5a09add88d6dd893b93a3e9a0a2167fd242de27d28e3c8db9c5be4d, slack_request_timestamp: 1608369029, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369028.000200",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "ggpF",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "yLQ6V",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Mp09"
+                },
+                {
+                  "type": "section",
+                  "block_id": "t+g7",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kjk0e",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Qpq"
+                },
+                {
+                  "type": "section",
+                  "block_id": "EE7EA",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kserg",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369028.000200",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01GVCVCULF",
+            "event_time": 1608369028,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369028.000200",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "ggpF",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "yLQ6V",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Mp09"
+              },
+              {
+                "type": "section",
+                "block_id": "t+g7",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kjk0e",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Qpq"
+              },
+              {
+                "type": "section",
+                "block_id": "EE7EA",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kserg",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369028.000200",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:30",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:10:30",
+      "end_ingestionTime": "2020-12-19, 17:10:33",
+      "Report": [
+        "Duration: 11.52 ms",
+        "Billed Duration: 12 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "3563e15e-356c-4bed-a692-a085ce243e3a": {
+      "start_timestamp": "2020-12-19, 17:10:31",
+      "start_ingestionTime": "2020-12-19, 17:10:33",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3502",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc387-4bba7b3612907dc82cb2690b",
+              "x-forwarded-for": "54.91.163.255",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369030",
+              "x-slack-retry-num": "1",
+              "x-slack-retry-reason": "http_error",
+              "x-slack-signature": "v0=a57ea3dc7ece0a5f15ad5cdd6dc1f0a1294ba353892465f2801eff778d2e54e5"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "54.91.163.255",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyt9Mh_5HUYEPDQ=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:10:31 +0000",
+              "timeEpoch": 1608369031552
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_content": "slack_signature: v0=a57ea3dc7ece0a5f15ad5cdd6dc1f0a1294ba353892465f2801eff778d2e54e5, slack_request_timestamp: 1608369030, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369028.000200",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "ggpF",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "yLQ6V",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Mp09"
+                },
+                {
+                  "type": "section",
+                  "block_id": "t+g7",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kjk0e",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Qpq"
+                },
+                {
+                  "type": "section",
+                  "block_id": "EE7EA",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kserg",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369028.000200",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01GVCVCULF",
+            "event_time": 1608369028,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369028.000200",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "ggpF",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "yLQ6V",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Mp09"
+              },
+              {
+                "type": "section",
+                "block_id": "t+g7",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kjk0e",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Qpq"
+              },
+              {
+                "type": "section",
+                "block_id": "EE7EA",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kserg",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369028.000200",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:10:31",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:10:31",
+      "end_ingestionTime": "2020-12-19, 17:10:33",
+      "Report": [
+        "Duration: 15.37 ms",
+        "Billed Duration: 16 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "7d47dbf7-89e0-4a50-b8fc-3c771a9a1ef3": {
+      "start_timestamp": "2020-12-19, 17:11:29",
+      "start_ingestionTime": "2020-12-19, 17:11:38",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3501",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc3c1-2de3b7343816611f3707ecc0",
+              "x-forwarded-for": "3.92.167.122",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369089",
+              "x-slack-retry-num": "2",
+              "x-slack-retry-reason": "http_error",
+              "x-slack-signature": "v0=21b3a06cb0a59163b012853543c8eab43014c7f0057716a3f13c74cc7f495519"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "3.92.167.122",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "XyuGTjI2nUYEJtA=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:11:29 +0000",
+              "timeEpoch": 1608369089831
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_content": "slack_signature: v0=21b3a06cb0a59163b012853543c8eab43014c7f0057716a3f13c74cc7f495519, slack_request_timestamp: 1608369089, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369026.000100",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "AxT",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "Ckui8",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "DjKfQ"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gpkc",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "1PaeK",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "qVpe"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gVN",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "mHBzc",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369026.000100",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01H3E3LACE",
+            "event_time": 1608369026,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369026.000100",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "AxT",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "Ckui8",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "DjKfQ"
+              },
+              {
+                "type": "section",
+                "block_id": "gpkc",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "1PaeK",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "qVpe"
+              },
+              {
+                "type": "section",
+                "block_id": "gVN",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "mHBzc",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369026.000100",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:29",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:11:29",
+      "end_ingestionTime": "2020-12-19, 17:11:38",
+      "Report": [
+        "Duration: 5.31 ms",
+        "Billed Duration: 6 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "73cb65ab-0ff3-4703-95bb-f4b5940586da": {
+      "start_timestamp": "2020-12-19, 17:11:31",
+      "start_ingestionTime": "2020-12-19, 17:11:38",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3502",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc3c3-3f2ce68a151f05946d699d5a",
+              "x-forwarded-for": "54.145.28.111",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369091",
+              "x-slack-retry-num": "2",
+              "x-slack-retry-reason": "http_error",
+              "x-slack-signature": "v0=2a3a5f5a0c6a5fa87d601afe7b5883b1cd8e9a3f47c74f565bab26e31582f901"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "54.145.28.111",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "XyuGnj-WHUYEMag=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:11:31 +0000",
+              "timeEpoch": 1608369091808
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_content": "slack_signature: v0=2a3a5f5a0c6a5fa87d601afe7b5883b1cd8e9a3f47c74f565bab26e31582f901, slack_request_timestamp: 1608369091, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369028.000200",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "ggpF",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "yLQ6V",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Mp09"
+                },
+                {
+                  "type": "section",
+                  "block_id": "t+g7",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kjk0e",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Qpq"
+                },
+                {
+                  "type": "section",
+                  "block_id": "EE7EA",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kserg",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369028.000200",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01GVCVCULF",
+            "event_time": 1608369028,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369028.000200",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "ggpF",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "yLQ6V",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Mp09"
+              },
+              {
+                "type": "section",
+                "block_id": "t+g7",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kjk0e",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Qpq"
+              },
+              {
+                "type": "section",
+                "block_id": "EE7EA",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kserg",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369028.000200",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:11:31",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:11:31",
+      "end_ingestionTime": "2020-12-19, 17:11:38",
+      "Report": [
+        "Duration: 2.34 ms",
+        "Billed Duration: 3 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "5fa1ae75-6ae8-42d0-b7c9-4afbc5b72fd3": {
+      "start_timestamp": "2020-12-19, 17:16:29",
+      "start_ingestionTime": "2020-12-19, 17:16:38",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3501",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc4ed-684d2edf01a2681937dfffd0",
+              "x-forwarded-for": "54.145.28.111",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369389",
+              "x-slack-retry-num": "3",
+              "x-slack-retry-reason": "http_error",
+              "x-slack-signature": "v0=8c393fefa9516a4d2544ce277f53603fcc4855d03e16867855ed32afed3e5793"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "54.145.28.111",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyu1KhBWnUYEM3Q=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:16:29 +0000",
+              "timeEpoch": 1608369389796
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_content": "slack_signature: v0=8c393fefa9516a4d2544ce277f53603fcc4855d03e16867855ed32afed3e5793, slack_request_timestamp: 1608369389, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369026.000100\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"AxT\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"Ckui8\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"DjKfQ\"},{\"type\":\"section\",\"block_id\":\"gpkc\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"1PaeK\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"qVpe\"},{\"type\":\"section\",\"block_id\":\"gVN\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"mHBzc\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369026.000100\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01H3E3LACE\",\"event_time\":1608369026,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369026.000100",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "AxT",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "Ckui8",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "DjKfQ"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gpkc",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "1PaeK",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "qVpe"
+                },
+                {
+                  "type": "section",
+                  "block_id": "gVN",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "mHBzc",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369026.000100",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01H3E3LACE",
+            "event_time": 1608369026,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369026.000100",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "AxT",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "Ckui8",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "DjKfQ"
+              },
+              {
+                "type": "section",
+                "block_id": "gpkc",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "1PaeK",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "qVpe"
+              },
+              {
+                "type": "section",
+                "block_id": "gVN",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "mHBzc",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369026.000100",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:29",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:16:29",
+      "end_ingestionTime": "2020-12-19, 17:16:38",
+      "Report": [
+        "Duration: 2.33 ms",
+        "Billed Duration: 3 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    },
+    "fdf5e44b-da22-41d7-93c1-5a382ed1b478": {
+      "start_timestamp": "2020-12-19, 17:16:31",
+      "start_ingestionTime": "2020-12-19, 17:16:38",
+      "lambda_events": [
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_lambda_event": {
+            "version": "2.0",
+            "routeKey": "ANY /Python-Quant-Invest-Slack",
+            "rawPath": "/default/Python-Quant-Invest-Slack",
+            "rawQueryString": "",
+            "headers": {
+              "accept": "*/*",
+              "accept-encoding": "gzip,deflate",
+              "content-length": "3502",
+              "content-type": "application/json",
+              "host": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "user-agent": "Slackbot 1.0 (+https://api.slack.com/robots)",
+              "x-amzn-trace-id": "Root=1-5fddc4ef-6af8f963732318f42860126a",
+              "x-forwarded-for": "34.229.221.187",
+              "x-forwarded-port": "443",
+              "x-forwarded-proto": "https",
+              "x-slack-request-timestamp": "1608369391",
+              "x-slack-retry-num": "3",
+              "x-slack-retry-reason": "http_error",
+              "x-slack-signature": "v0=dc899550c58a99e07749302832eada14cbf0c02a4937218f888aee5854628324"
+            },
+            "requestContext": {
+              "accountId": "463415492427",
+              "apiId": "quwmqi5gr3",
+              "domainName": "quwmqi5gr3.execute-api.ap-east-1.amazonaws.com",
+              "domainPrefix": "quwmqi5gr3",
+              "http": {
+                "method": "POST",
+                "path": "/default/Python-Quant-Invest-Slack",
+                "protocol": "HTTP/1.1",
+                "sourceIp": "34.229.221.187",
+                "userAgent": "Slackbot 1.0 (+https://api.slack.com/robots)"
+              },
+              "requestId": "Xyu1fhBgnUYEM3Q=",
+              "routeKey": "ANY /Python-Quant-Invest-Slack",
+              "stage": "default",
+              "time": "19/Dec/2020:09:16:31 +0000",
+              "timeEpoch": 1608369391811
+            },
+            "body": "{\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}",
+            "isBase64Encoded": false
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_content": "slack_signature: v0=dc899550c58a99e07749302832eada14cbf0c02a4937218f888aee5854628324, slack_request_timestamp: 1608369391, payload_str: {\"token\":\"xzFV5gVV2G4oz7BTs0lp4N18\",\"team_id\":\"T01FY9Z5GUS\",\"api_app_id\":\"A01GBG82P1C\",\"event\":{\"type\":\"message\",\"subtype\":\"bot_message\",\"text\":\"This content can't be displayed.\",\"ts\":\"1608369028.000200\",\"username\":\"Hyeon\",\"bot_id\":\"B01GBHM1QS2\",\"blocks\":[{\"type\":\"section\",\"block_id\":\"ggpF\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":woman-raising-hand: *TestBot002, \\u4f60\\u597d!* \\u6b61\\u8fce\\u4f86\\u5230 `Python \\u91cf\\u5316\\u91d1\\u878d Slack\\u5c0f\\u7fa4` :moneybag:\\u3002\\u5f88\\u9ad8\\u8208\\u4f60\\u52a0\\u5165\\u6211\\u5011\\uff01\\u6211\\u662f\\u5c0f\\u79d8\\u66f8 Hyeon\\u3002\\u958b\\u59cb\\u6642\\u6211\\u53ea\\u70ba\\u4f60\\u52a0\\u5165\\u5169\\u500b\\u983b\\u9053 (Channel)\\uff0c<#C01FYG1HW8K|\\u5927\\u5ef3-\\u4e0d\\u7279\\u5b9a\\u4e3b\\u984c\\u8a0e\\u8ad6>\\uff0c\\u4ee5\\u53ca<#C01FYPQF1K5|\\u53c3\\u8003-\\u7db2\\u7ad9\\u5f71\\u7247\\u975e\\u66f8\\u672c\\u985e>\\u3002\\u4f60\\u53ef\\u4ee5\\u9ede\\u9078\\u5de6\\u5074 Channels \\u4e0b\\u7684 *\\u65b0\\u589e\\u983b\\u9053 (Add Channels)* \\u65b0\\u589e\\u4f60\\u6709\\u8208\\u8da3\\u7684\\u4e3b\\u984c\\u3002\\u4e5f\\u6b61\\u8fce\\u60a8\\u9ede\\u9078\\u4e0b\\u5217\\u9023\\u7d50\\u540c\\u6642\\u52a0\\u5165\\u6211\\u5011\\u7684 :line: \\u793e\\u7fa4\\u5594\\uff01\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"yLQ6V\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/line.me\\/ti\\/g2\\/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|\\u540c\\u6642\\u52a0\\u5165 LINE \\u793e\\u7fa4 Python \\u91cf\\u5316\\u91d1\\u878d\\u6295\\u8cc7>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Mp09\"},{\"type\":\"section\",\"block_id\":\"t+g7\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u5c0d\\u9019\\u500b\\u8a0a\\u606f\\u56de\\u61c9\\u4e26\\u65b0\\u589e\\u8868\\u60c5\\u7b26\\u865f (emoji)* :grinning:\\n\\u4f60\\u53ef\\u4ee5\\u5728 Slack \\u88e1\\u7684\\u4efb\\u4f55\\u8a0a\\u606f\\u4e0a\\uff0c\\u5feb\\u901f\\u5730\\u56de\\u61c9\\u8868\\u60c5\\u7b26\\u865f\\u3002\\u56de\\u61c9\\u53ef\\u4ee5\\u505a\\u70ba\\u4efb\\u4f55\\u7684\\u7528\\u9014\\uff0c\\u4f8b\\u5982: \\u6295\\u7968, \\u6a19\\u793a\\u67d0\\u9805\\u4efb\\u52d9\\u70ba\\u5df2\\u5b8c\\u6210, \\u8868\\u9054\\u4f60\\u7684\\u60c5\\u7dd2\\u7b49\\u7b49\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kjk0e\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/206870317-Emoji-reactions|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u8868\\u60c5\\u7b26\\u865f\\u56de\\u61c9 (Emoji Reactions)>*\",\"verbatim\":false}]},{\"type\":\"divider\",\"block_id\":\"Qpq\"},{\"type\":\"section\",\"block_id\":\"EE7EA\",\"text\":{\"type\":\"mrkdwn\",\"text\":\":white_large_square: *\\u91d8\\u9078\\u9019\\u500b\\u8a0a\\u606f* :thumbtackr:\\n\\u5728\\u4efb\\u4f55\\u983b\\u9053\\u4e2d\\u6216\\u79c1\\u8a0a\\uff0c\\u91cd\\u8981\\u7684\\u8cc7\\u8a0a\\u548c\\u6a94\\u6848\\u53ef\\u4ee5\\u88ab\\u91d8\\u9078\\u5230\\u8a73\\u7d30\\u7a97\\u683c (Details Pane) \\uff0c\\u5305\\u542b\\u7fa4\\u7d44\\u8a0a\\u606f, \\u505a\\u70ba\\u5feb\\u901f\\u7684\\u53c3\\u8003\\u6377\\u5f91\\u3002\",\"verbatim\":false}},{\"type\":\"context\",\"block_id\":\"kserg\",\"elements\":[{\"type\":\"mrkdwn\",\"text\":\":information_source: *<https:\\/\\/get.slack.help\\/hc\\/en-us\\/articles\\/205239997-Pinning-messages-and-files|\\u77ad\\u89e3\\u5982\\u4f55\\u4f7f\\u7528\\u91d8\\u9078\\u7279\\u5b9a\\u8a0a\\u606f>*\",\"verbatim\":false}]}],\"channel\":\"D01HAC8LW59\",\"event_ts\":\"1608369028.000200\",\"channel_type\":\"im\"},\"type\":\"event_callback\",\"event_id\":\"Ev01GVCVCULF\",\"event_time\":1608369028,\"authorizations\":[{\"enterprise_id\":null,\"team_id\":\"T01FY9Z5GUS\",\"user_id\":\"U01GJFS7Q6P\",\"is_bot\":true,\"is_enterprise_install\":false}],\"is_ext_shared_channel\":false,\"event_context\":\"1-message-T01FY9Z5GUS-D01HAC8LW59\"}"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_content": "Valid Signature! Slack signature verification was passed!"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_payload": {
+            "token": "xzFV5gVV2G4oz7BTs0lp4N18",
+            "team_id": "T01FY9Z5GUS",
+            "api_app_id": "A01GBG82P1C",
+            "event": {
+              "type": "message",
+              "subtype": "bot_message",
+              "text": "This content can't be displayed.",
+              "ts": "1608369028.000200",
+              "username": "Hyeon",
+              "bot_id": "B01GBHM1QS2",
+              "blocks": [
+                {
+                  "type": "section",
+                  "block_id": "ggpF",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "yLQ6V",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Mp09"
+                },
+                {
+                  "type": "section",
+                  "block_id": "t+g7",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kjk0e",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                      "verbatim": false
+                    }
+                  ]
+                },
+                {
+                  "type": "divider",
+                  "block_id": "Qpq"
+                },
+                {
+                  "type": "section",
+                  "block_id": "EE7EA",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                    "verbatim": false
+                  }
+                },
+                {
+                  "type": "context",
+                  "block_id": "kserg",
+                  "elements": [
+                    {
+                      "type": "mrkdwn",
+                      "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                      "verbatim": false
+                    }
+                  ]
+                }
+              ],
+              "channel": "D01HAC8LW59",
+              "event_ts": "1608369028.000200",
+              "channel_type": "im"
+            },
+            "type": "event_callback",
+            "event_id": "Ev01GVCVCULF",
+            "event_time": 1608369028,
+            "authorizations": [
+              {
+                "enterprise_id": null,
+                "team_id": "T01FY9Z5GUS",
+                "user_id": "U01GJFS7Q6P",
+                "is_bot": true,
+                "is_enterprise_install": false
+              }
+            ],
+            "is_ext_shared_channel": false,
+            "event_context": "1-message-T01FY9Z5GUS-D01HAC8LW59"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_event": {
+            "type": "message",
+            "subtype": "bot_message",
+            "text": "This content can't be displayed.",
+            "ts": "1608369028.000200",
+            "username": "Hyeon",
+            "bot_id": "B01GBHM1QS2",
+            "blocks": [
+              {
+                "type": "section",
+                "block_id": "ggpF",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":woman-raising-hand: *TestBot002, 你好!* 歡迎來到 `Python 量化金融 Slack小群` :moneybag:。很高興你加入我們！我是小秘書 Hyeon。開始時我只為你加入兩個頻道 (Channel)，<#C01FYG1HW8K|大廳-不特定主題討論>，以及<#C01FYPQF1K5|參考-網站影片非書本類>。你可以點選左側 Channels 下的 *新增頻道 (Add Channels)* 新增你有興趣的主題。也歡迎您點選下列連結同時加入我們的 :line: 社群喔！",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "yLQ6V",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://line.me/ti/g2/mth-CIx2YSB6fsmHyojFjQ?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default|同時加入 LINE 社群 Python 量化金融投資>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Mp09"
+              },
+              {
+                "type": "section",
+                "block_id": "t+g7",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *對這個訊息回應並新增表情符號 (emoji)* :grinning:\n你可以在 Slack 裡的任何訊息上，快速地回應表情符號。回應可以做為任何的用途，例如: 投票, 標示某項任務為已完成, 表達你的情緒等等。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kjk0e",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions|瞭解如何使用表情符號回應 (Emoji Reactions)>*",
+                    "verbatim": false
+                  }
+                ]
+              },
+              {
+                "type": "divider",
+                "block_id": "Qpq"
+              },
+              {
+                "type": "section",
+                "block_id": "EE7EA",
+                "text": {
+                  "type": "mrkdwn",
+                  "text": ":white_large_square: *釘選這個訊息* :thumbtackr:\n在任何頻道中或私訊，重要的資訊和檔案可以被釘選到詳細窗格 (Details Pane) ，包含群組訊息, 做為快速的參考捷徑。",
+                  "verbatim": false
+                }
+              },
+              {
+                "type": "context",
+                "block_id": "kserg",
+                "elements": [
+                  {
+                    "type": "mrkdwn",
+                    "text": ":information_source: *<https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files|瞭解如何使用釘選特定訊息>*",
+                    "verbatim": false
+                  }
+                ]
+              }
+            ],
+            "channel": "D01HAC8LW59",
+            "event_ts": "1608369028.000200",
+            "channel_type": "im"
+          }
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_content": "event_type: message"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_content": "subtype: bot_message, channel_type: im, channel: D01HAC8LW59"
+        },
+        {
+          "log_type": "ERROR",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_content": "error: name 'bot_message' is not defined"
+        },
+        {
+          "log_type": "INFO",
+          "datetime": "2020-12-19, 17:16:31",
+          "msg_content": "return: statusCode[400]"
+        }
+      ],
+      "version": "$LATEST",
+      "end_timestamp": "2020-12-19, 17:16:31",
+      "end_ingestionTime": "2020-12-19, 17:16:38",
+      "Report": [
+        "Duration: 2.34 ms",
+        "Billed Duration: 3 ms",
+        "Memory Size: 128 MB",
+        "Max Memory Used: 81 MB"
+      ]
+    }
+  }
+}
