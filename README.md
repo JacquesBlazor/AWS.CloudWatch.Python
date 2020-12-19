@@ -1,9 +1,6 @@
 # AWS.CloudWatch.Python
 Gather CloudWatch Lambda Logging for Troubleshooting (Slack specific)
 
-## amazonWebServices.ec2.python
-**AWS (Amazon Web Services) ec2 instances start and stop (running and stopping) by python**
-
 - [x] --- 說明 ---
 
     此程的功能為提供使用 Amazon Web Service (AWS) 的 Lambda 服務的使用者可以簡便地透過 CloudWatch 的 Logging 來識別問題。
