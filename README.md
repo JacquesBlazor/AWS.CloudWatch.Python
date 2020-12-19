@@ -7,7 +7,7 @@ Gather CloudWatch Lambda Logging for Troubleshooting (Slack specific)
 - [x] --- 說明 ---
 
     此程的功能為提供使用 Amazon Web Service (AWS) 的 Lambda 服務的使用者可以簡便地透過 CloudWatch 的 Logging 來識別問題。
-    例如以下的 Logging 可以用 Visual Studio Code 或其他類別的工具像 https://jsonformatter.curiousconcept.com/ 來查看。
+    例如以下的 Logging 可以用 Visual Studio Code 或其他類似的工具像 https://jsonformatter.curiousconcept.com/ 來查看。
 
     ![範例畫面](https://github.com/spectreConstantine/AWS.CloudWatch.Python/blob/main/2020-12-20_005018.jpg)
 
